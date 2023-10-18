@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className={classes.screenContainer}>
-      <ScrollToTop />
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<HomeApp />}></Route>
